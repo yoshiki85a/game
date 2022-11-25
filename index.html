@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Y Game（仮）</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <h2 class="pt-1">Y Games（仮）</h2>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#">ホーム</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">商品一覧</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#new">最新情報</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">グッズ情報</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">チームメンバー</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blog">更新情報</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">お問い合わせ</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="hero vh-100 d-flex align-items-center" id="home">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 mx-auto text-center">
+          <h1 class="display-4 text-white">Y Games（仮）</h1>
+          <p class="text-white my-3">毎日に　”楽しい”　を！</p>
+          <a href="#" class="btn btn-primary me-2">商品一覧</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section id="services">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h6 class="text-primary">商品情報</h6>
+          <h1>発売中のソフト</h1>
+        </div>
+      </div>
+
+      <div class="row g-4">
+        <div class="col-lg-4 col-sm-6">
+          <div class="service card-effect">
+            <div class="game">
+              <img src="img/勇者.png" alt="勇者">
+            </div>
+            <div class="iconbox">
+              <i class='bx bx-cart-download'></i>
+            </div>
+            <h5 class="mt-4 mb-2">勇者クエスト</h5>
+            <p>魔王を倒してお姫様を助けよう！</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="service card-effect">
+            <div class="game">
+              <img src="img/戦車.png" alt="戦車">
+            </div>
+            <div class="iconbox">
+              <i class='bx bx-cart-download'></i>
+            </div>
+            <h5 class="mt-4 mb-2">戦車シューティング</h5>
+            <p>爽快！シューティングゲーム！</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="service card-effect">
+            <div class="game">
+              <img src="img/黄色のエイリアン.png" alt="インベーダー">
+            </div>
+            <div class="iconbox">
+              <i class='bx bx-cart-download'></i>
+            </div>
+            <h5 class="mt-4 mb-2">インベーダー</h5>
+            <p>侵略者から地球を守ろう！</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="service card-effect">
+            <div class="game">
+              <img src="img/赤い乗用車.png" alt="車">
+            </div>
+            <div class="iconbox">
+              <i class='bx bx-cart-download'></i>
+            </div>
+            <h5 class="mt-4 mb-2">レーシングゲーム</h5>
+            <p>スピードの頂点へ！</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="service card-effect">
+            <div class="game">
+              <img src="img/サタケ犬.png" alt="ペット">
+            </div>
+            <div class="iconbox">
+              <i class='bx bx-cart-download'></i>
+            </div>
+            <h5 class="mt-4 mb-2">ペット育成ゲーム</h5>
+            <p>かわいいペットを育てよう！</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="service card-effect">
+            <div class="game">
+              <img src="img/グレーのヘッドホン.png" alt="音楽">
+            </div>
+            <div class="iconbox">
+              <i class='bx bx-cart-download'></i>
+            </div>
+            <h5 class="mt-4 mb-2">リズムゲーム</h5>
+            <p>めざせフルコンボ！</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="row w-100 py-0 bg-light" id="new">
+    <div class="col-lg-5 kumanomi">
+      <img src="img/カクレクマノミ.png" alt="クマノミ">
+    </div>
+    <div class="col-lg-7">
+      <div class="container">
+        <div class="row mx-auto">
+          <div class="col-md-10 pt-4 offset-md-1">
+            <h6 class="text-primary">NEW!</h6>
+            <h1>最新情報</h1>
+            <p>新作アクアリウムゲーム発売！<br>かわいいお魚を育てよう！</p>
+            <div class="feature d-flex mt-5">
+              <div class="iconbox me-3">
+                <i class='bx bx-cart-download'></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h6 class="text-primary">その他の商品</h6>
+          <h1>グッズ情報</h1>
+          <p>
+            キャラクターと一緒に毎日を楽しく！
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-8">
+        <div class="col-lg-4 col-sm-6">
+          <div class="project">
+            <div class="goods">
+              <img src="img/coffee_color.png" alt="コーヒーカップ">
+            </div>
+            <div class="overlay">
+              <div>
+                <h4 class="text-white">コーヒーカップ</h4>
+                <h6 class="text-white">５００円</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="project">
+            <div class="goods">
+              <img src="img/clock_color.png" alt="時計">
+            </div>
+            <div class="overlay">
+              <div>
+                <h4 class="text-white">目覚まし時計</h4>
+                <h6 class="text-white">１５００円</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="project">
+            <div class="goods">
+              <img src="img/book_close_color.png" alt="ファンブック">
+            </div>
+            <div class="overlay">
+              <div>
+                <h4 class="text-white">ファンブック</h4>
+                <h6 class="text-white">１０００円</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="project">
+            <div class="goods">
+              <img src="img/clothes_Tshirt_simple.png" alt="Tシャツ">
+            </div>
+            <div class="overlay">
+              <div>
+                <h4 class="text-white">Tシャツ</h4>
+                <h6 class="text-white">１０００円</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="project">
+            <div class="goods">
+              <img src="img/memo_color.png" alt="メモ帳">
+            </div>
+            <div class="overlay">
+              <div>
+                <h4 class="text-white">メモ帳</h4>
+                <h6 class="text-white">５００円</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6">
+          <div class="project">
+            <div class="goods">
+              <img src="img/ring_color.png" alt="アクセサリー">
+            </div>
+            <div class="overlay">
+              <div>
+                <h4 class="text-white">アクセサリー</h4>
+                <h6 class="text-white">２０００円</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="team" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h1>チームメンバー</h1>
+          <p>
+            みなさんに最高の商品をお届けします！
+          </p>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-lg-3 col-sm-6 text-center">
+          <div class="team-member card-effect">
+            <div class="face">
+              <img src="img/14036_paint.png" alt="Aさん">
+            </div>
+            <h5 class="mb-0 mt-4">Aさん</h5>
+            <p>プロデューサー</p>
+            <div class="social-icons">
+              <a href="#"><i class='bx bxl-facebook'></i></a>
+              <a href="#"><i class='bx bxl-twitter'></i></a>
+              <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center">
+          <div class="team-member card-effect">
+            <div class="face">
+              <img src="img/11813_paint.png" alt="Bさん">
+            </div>
+            <h5 class="mb-0 mt-4">Bさん</h5>
+            <p>ディレクター</p>
+            <div class="social-icons">
+              <a href="#"><i class='bx bxl-facebook'></i></a>
+              <a href="#"><i class='bx bxl-twitter'></i></a>
+              <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center">
+          <div class="team-member card-effect">
+            <div class="face">
+              <img src="img/12981_paint.png" alt="Cさん">
+            </div>
+            <h5 class="mb-0 mt-4">Cさん</h5>
+            <p>キャラクターデザイン</p>
+            <div class="social-icons">
+              <a href="#"><i class='bx bxl-facebook'></i></a>
+              <a href="#"><i class='bx bxl-twitter'></i></a>
+              <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-sm-6 text-center">
+          <div class="team-member card-effect">
+            <div class="face">
+              <img src="img/12929_paint.png" alt="Dさん">
+            </div>
+            <h5 class="mb-0 mt-4">Dさん</h5>
+            <p>シナリオライター</p>
+            <div class="social-icons">
+              <a href="#"><i class='bx bxl-facebook'></i></a>
+              <a href="#"><i class='bx bxl-twitter'></i></a>
+              <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="blog" class="bg-light">
+    <div class="container blog">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h1>更新情報</h1>
+        </div>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-md-4">
+          <div class="blog-card card-effect">
+            <div class="image">
+              <img src="img/勇者.png" alt="勇者">
+            </div>
+            <h5 class="mb-0 mt-4"><a href="#">アップデート情報</a></h5>
+            <p>勇者クエストに新たなダンジョンが登場！</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blog-card card-effect">
+            <div class="image">
+              <img src="img/戦車.png" alt="戦車">
+            </div>
+            <h5 class="mb-0 mt-4"><a href="#">アップデート情報</a></h5>
+            <p>戦車シューティングに新たな機体が登場！</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="blog-card card-effect">
+            <div class="image">
+              <img src="img/グレーのヘッドホン.png" alt="音楽">
+            </div>
+            <h5 class="mb-0 mt-4"><a href="#">アップデート情報</a></h5>
+            <p>リズムゲームに新たな曲を追加！</p>
+          </div>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <h1>お問い合わせ</h1>
+        </div>
+      </div>
+
+      <form action="" class="row g-3 justify-content-center">
+        <div class="col-md-5">
+          <input type="text" class="form-control" placeholder="お名前">
+        </div>
+        <div class="col-md-5">
+          <input type="text" class="form-control" placeholder="メールアドレス">
+        </div>
+        <div class="col-md-10">
+          <textarea name="" id="" cols="30" rows="5" class="form-control" placeholder="お問い合わせ"></textarea>
+        </div>
+        <div class="col-md-10 d-grid">
+          <button class="btn btn-primary">送信</button>
+        </div>
+      </form>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Y Games（仮）</h2>
+          </div>
+          <div class="col-md-2">
+            <h5>メニュー</h5>
+            <ul class="list-unstyled">
+              <li><a href="#services">商品一覧</a></li>
+              <li><a href="#new">最新情報</a></li>
+              <li><a href="#projects">グッズ情報</a></li>
+              <li><a href="#team">チームメンバー</a></li>
+              <li><a href="#blog">更新情報</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h5>サポート</h5>
+            <ul class="list-unstyled">
+              <li><a href="#">サポートトップ</a></li>
+              <li><a href="#">修理のご案内</a></li>
+              <li><a href="#">よくあるご質問</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>会社情報</h5>
+            <ul class="list-unstyled">
+              <li>○○県○○市○○　△ー△ー△</li>
+              <li>○○○ー○○○○ー○○○○</li>
+              <li>□□□□□□□□□□.com</li>
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+:root {
+  --primary: #0d6efd;
+  --dark: #21252f;
+  --body: #888;
+  --box-shadow: 0px 8px 22px rgba(0 0 0 .4);
+}
+
+body {
+  font-family: 'Sora', sans-serif;
+  line-height: 1.7;
+  color: var(--body);
+}
+
+h1, h2, h3, h4, h5, h6, .display-4 {
+  color: var(--dark);
+  font-weight: 700;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.navbar .nav-link {
+  font-size: 14px;
+  font-weight: 700;
+  padding-top: 16px;
+}
+
+.btn {
+  padding: 14px 18px;
+  border-width: 2px;
+}
+
+.hero {
+  background-image: url(../img/astronaut-4106766_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(37, 39, 71, .5);
+  z-index: -1;
+}
+
+.card-effect {
+  box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.237);
+  background-color: #fff;
+  padding: 25px;
+  transition: all .3s ease;
+}
+
+.card-effect:hover {
+  box-shadow: none;
+  transform: translateY(5px);
+}
+
+.iconbox {
+  width: 54px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary);
+  color: white;
+  font-size: 32px;
+  border-radius: 50%;
+  flex: none;
+}
+
+.service {
+  position: relative;
+  overflow: hidden;
+}
+
+.service::after {
+  content: "";
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background-color: var(--primary);
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all .3s;
+  z-index: -1;
+}
+
+.service:hover h5,
+.service:hover p {
+  color: white;
+}
+
+.service:hover .iconbox {
+  background-color: #fff;
+  color: var(--primary);
+}
+
+.service:hover::after {
+  opacity: 1;
+  top: 0;
+}
+
+.service .game {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.kumanomi {
+  width: 300px;
+  height: 300px;
+  margin: 32px auto 0;
+}
+
+/* Project Section */
+
+.project {
+  position: relative;
+  overflow: hidden;
+}
+
+.project .goods {
+  width: 300px;
+  height: 300px;
+  margin: 16px auto;
+}
+
+.project img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.project .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(37, 39, 71, .5);
+  padding: 30px;
+  display: flex;
+  align-items: flex-end;
+  opacity: 0;
+  transition: all .3s;
+}
+
+img {
+  width: 100%;
+}
+
+.project img {
+  transition: all .3s;
+}
+
+.project:hover .overlay {
+  opacity: 1;
+}
+
+.project:hover img {
+  transform: scale(1.1);
+}
+
+/* team section */
+
+.team-member .face {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.team-member img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: contain;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons a {
+  width: 32px;
+  height: 32px;
+  background-color: var(--primary);
+  border: 2px solid var(--primary);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 5px;
+  transition: all .3s;
+}
+
+.social-icons a:hover {
+  color: var(--primary);
+  background-color: transparent;
+}
+
+/* blog section */
+
+.blog .image {
+  width: 160px;
+  height: 160px;
+  margin: 0 auto;
+}
+
+.blog .image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+
+/* contact section */
+
+form input.form-control {
+  height: 56px;
+}
+
+form .form-control {
+  border: transparent;
+  background-color: rgba(0, 0, 0, .04);
+}
+
+.footer-top {
+  padding: 60px 0 20px;
+}
+
+.footer-top a {
+  color: var(--body);
+  font-size: 12px;
+}
+
+.footer-top a:hover {
+  color: #fff;
+}
